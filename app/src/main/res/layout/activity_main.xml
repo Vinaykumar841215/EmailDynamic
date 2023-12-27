@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_centerInParent="true"
+    android:layout_marginHorizontal="15dp"
+    android:layout_marginTop="50dp"
+    android:backgroundTint="#4cb050"
+    app:cardCornerRadius="20sp"
+    app:cardElevation="10sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="8sp"
+        android:text="EduGaon"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/shortBtn"
+        android:layout_width="21dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="288dp"
+        android:layout_marginTop="8sp"
+        android:backgroundTint="#01579B"
+        android:src="@drawable/what"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="21dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="8sp"
+        android:backgroundTint="#01579B"
+        android:src="@drawable/baseline_logout_24"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/pro"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130dp"
+        />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shortBtn"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="155sp"
+        android:text="name"
+        android:textStyle="bold"
+        android:textSize="23sp" />
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameText"
+        android:layout_marginLeft="60sp"
+        android:text="email"
+        android:layout_marginTop="190sp"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/ageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameText"
+        android:layout_marginLeft="60sp"
+        android:layout_marginTop="220sp"
+        android:text="age"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/phoneText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameText"
+        android:layout_marginLeft="60sp"
+        android:layout_marginTop="250sp"
+        android:text="phone"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/showPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="point"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="290dp"
+        android:textSize="22sp"
+
+        />
+</androidx.cardview.widget.CardView>
